@@ -1,0 +1,36 @@
+.footer
+{
+    overflow: hidden;
+    background-color: antiquewhite;
+    padding: 20px ,10px;
+    text-align: center;
+
+
+}
+h1{
+    color: black;
+    font-size: 20px;
+}
+a{
+    color: black;
+    text-decoration: solid;
+    padding: 0px , 5px;
+    font-size: 17px;
+
+}
+i {
+    color: blue;
+    padding: 0px ,10px;
+}
+a.hover {
+    color: aliceblue;
+
+}
+
+
+
+
+
+
+
+
