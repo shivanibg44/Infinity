@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Infinity'; 
-  public image = "assets/img/pp1.jpg"
+
 
 }
