@@ -4,5 +4,8 @@
 }
 .navbar-dark .navbar-nav .nav-link
 {
-    color: whitesmoke;
+    color: rgb(12, 12, 12);
+}
+a{
+    color: black;
 }

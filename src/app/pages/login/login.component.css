@@ -5,8 +5,9 @@
 .container {
     max-width: 500px;
     margin: auto;
-    background: rgb(210, 212, 219);
+    background: rgb(0, 3, 14);
     padding: 60px;
+    color: aliceblue;
     
 }
 body {
