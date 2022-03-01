@@ -16,7 +16,7 @@ import { RegisterComponent } from './register/register.component';
 
 
 
-const routes: Routes = [{path:'',component:HomeComponent},
+const routes: Routes = [{path:'home',component:HomeComponent},
 { path:'navbar',component:NavbarComponent},
 { path:'sidebar',component:SidebarComponent},
 { path:'services',component:ServicesComponent},
