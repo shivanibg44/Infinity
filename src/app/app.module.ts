@@ -8,7 +8,6 @@ import { FooterComponent } from './footer/footer.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
-import { ServicesComponent } from './services/services.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { HiComponent } from './hi/hi.component';
@@ -25,7 +24,6 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     SidebarComponent,
     HomeComponent,
     AboutComponent,
-    ServicesComponent,
     LoginComponent,
     RegisterComponent,
     HiComponent,

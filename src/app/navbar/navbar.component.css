@@ -1,0 +1,11 @@
+.navbar-dark .navbar-brand {
+    color: rgb(32, 31, 31);
+    text-decoration: solid;
+    text-decoration-style: double;
+    
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(18, 18, 19, 0.904);
+    text-decoration: solid;
+    
+}

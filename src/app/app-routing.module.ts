@@ -6,7 +6,6 @@ import { HomeComponent } from './home/home.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { FooterComponent } from './footer/footer.component';
 import { AboutComponent } from './about/about.component';
-import { ServicesComponent } from './services/services.component';
 import { HiComponent } from './hi/hi.component';
 import { CiComponent } from './ci/ci.component';
 import { TwoComponent } from './two/two.component';
@@ -19,7 +18,6 @@ import { RegisterComponent } from './register/register.component';
 const routes: Routes = [{path:'home',component:HomeComponent},
 { path:'navbar',component:NavbarComponent},
 { path:'sidebar',component:SidebarComponent},
-{ path:'services',component:ServicesComponent},
 { path:'about',component:AboutComponent},
 { path:'login',component:LoginComponent},
 { path:'register',component:RegisterComponent},
