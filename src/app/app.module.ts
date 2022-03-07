@@ -14,8 +14,7 @@ import { HiComponent } from './hi/hi.component';
 import { CiComponent } from './ci/ci.component';
 import { LiComponent } from './li/li.component';
 import { TwoComponent } from './two/two.component';
-import { DashboardComponent } from './dashboard/dashboard.component';
-import { NewpolicyComponent } from './newpolicy/newpolicy.component';
+import { DashboardComponent } from './dashboard/dashboard.component'
 
 @NgModule({
   declarations: [
@@ -32,7 +31,8 @@ import { NewpolicyComponent } from './newpolicy/newpolicy.component';
     LiComponent,
     TwoComponent,
     DashboardComponent,
-    NewpolicyComponent,
+
+
     
     
   ],
