@@ -1,11 +1,22 @@
 .navbar-dark .navbar-brand {
-    color: rgb(32, 31, 31);
+    color: rgb(245, 245, 250);
     text-decoration: solid;
     text-decoration-style: double;
     
 }
 .navbar-dark .navbar-nav .nav-link {
-    color: rgba(18, 18, 19, 0.904);
+    color: rgb(245, 245, 250);
     text-decoration: solid;
     
+}
+.navbar-brand
+{
+    
+    font-size: 20px;
+    font-weight: bolder;
+}
+.navbar-dark .navbar-nav.nav-link {
+    color: rgb(1, 1, 26);
+
+    text-decoration: solid;
 }
