@@ -12,6 +12,7 @@ import { TwoComponent } from './two/two.component';
 import { LiComponent } from './li/li.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
+import { NewpolicyComponent } from './newpolicy/newpolicy.component';
 
 
 
@@ -27,6 +28,7 @@ const routes: Routes = [{path:'home',component:HomeComponent},
 { path:'li',component:LiComponent},
 { path:'two',component:TwoComponent},
 { path:'dashboard',component:DashboardComponent},
+{ path:'newpolicy' , component:NewpolicyComponent}
 
 
 
