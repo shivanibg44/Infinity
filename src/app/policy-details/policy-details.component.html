@@ -1,7 +1,23 @@
 <app-sidebar></app-sidebar>
+
 <app-navbar></app-navbar>
+
+<div class="container">  
+  
+  <ul class="nav nav-pills">  
+    <li class="active"><a data-toggle="pill" href="#home1">Policy Types</a></li>  
+    <li class="active"><a data-toggle="pill"  class="nav-link"routerLink="/mypolicy" routerLinkActive="active-link">My Policy</a></li>  
+    <li class="active"><a data-toggle="pill"   class="nav-link"routerLink="/new-policy" routerLinkActive="active-link">New policy</a></li>  
+    
+     
+  </ul> 
+</div>
+<br>
+
+<hr class="new1">
 <div id="menu1" class="container tab-pane active" >
   <div class='table-responsive'>
+    <!--table started-->
     <table class='table table-hover'>
       <thead>
         <tr>
@@ -9,41 +25,55 @@
           <th >Policy_ID</th>
           <th>Policy_Name</th>
           <th >Policy_Plan(yearly)</th>
+          <th>Tax Benifit</th>
+          <th>Save Up To</th>
         </tr>
       </thead>
       <tbody>
         
-        <tr >
-          <td>1<td>
-          <td>4521783</td>
+        <tr>
+          <td>1</td>
+          <td>CD1783</td>
           <td>Home Insurance</td>
           <td>20y</td>
+          <td>Rs. 75,000</td>
+          <td>20.5%</td>
         </tr>
-        <tr >
+        <tr>
             <td>2</td>
-            <td>4521787</td>
+            <td>CD1787</td>
             <td>Life Insurance</td>
-            <td>20y</td>
+            <td>25y</td>
+
+            <td>Rs.1,00,000</td>
+            <td>35%</td>
           </tr>
           <tr >
               <td>3</td>
-            <td>4521787</td>
+            <td>CD21747</td>
             <td>Tavel Insurance</td>
             <td>8y</td>
+            <td>Rs. 80,000</td>
+            <td>18.23%</td>
           </tr>
           <tr >
               <td>4</td>
-            <td>4521786</td>
+            <td>CD1786</td>
             <td>Health Insurance</td>
             <td>25y</td>
+            <td>Rs. 4,00,000</td>
+            <td>38.2%</td>
           </tr>
-          <tr >
+          <tr>
               <td>5</td>
-            <td>4521783</td>
+            <td>CD1783</td>
             <td>Property Insurance</td>
-            <td>20y</td>
+            <td>15y</td>
+            <td>Rs. 2,25,000</td>
+            <td>28.3%</td>
           </tr>
       </tbody>
     </table>
+    <!--table ended-->
   </div>
 </div>
