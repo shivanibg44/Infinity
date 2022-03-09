@@ -6,29 +6,18 @@ a{
     color: white;
 }
 a:hover{
-    background-color: 	#4947df;
+    background-color: 	#df4759;
     color: white;
 }
 
-
 @media only screen and (max-width: 1314px) {
     [class="tab-content"] {
-      margin-left: 200px;
+      margin-left: 100px;
     }
   }
 
   @media only screen and (max-width: 1314px) {
     [class="nav nav-tabs"] {
-      margin-left: 150px;
+      margin-left: 100px;
     }
   }
- 
-  .tab-content
-  {
-    
-    margin-left: 150px;
-  }
-  .nav-item {
-    margin: auto;
-  }
-  

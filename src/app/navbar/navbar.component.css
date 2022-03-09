@@ -14,9 +14,12 @@
     
     font-size: 20px;
     font-weight: bolder;
+    
 }
 .navbar-dark .navbar-nav.nav-link {
     color: rgb(1, 1, 26);
 
     text-decoration: solid;
+    
 }
+

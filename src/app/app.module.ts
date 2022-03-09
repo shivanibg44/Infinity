@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
-import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
@@ -14,9 +14,10 @@ import { HiComponent } from './hi/hi.component';
 import { CiComponent } from './ci/ci.component';
 import { LiComponent } from './li/li.component';
 import { TwoComponent } from './two/two.component';
-import { DashboardComponent } from './dashboard/dashboard.component'
-import { PolicydetailsComponent } from './policydetails/policydetails.component';
-import { NewpolicyComponent } from './newpolicy/newpolicy.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { PolicyDetailsComponent } from './policy-details/policy-details.component';
+import { NewPolicyComponent } from './new-policy/new-policy.component';
+import { MypolicyComponent } from './mypolicy/mypolicy.component'
 
 @NgModule({
   declarations: [
@@ -33,9 +34,10 @@ import { NewpolicyComponent } from './newpolicy/newpolicy.component';
     LiComponent,
     TwoComponent,
     DashboardComponent,
-    PolicydetailsComponent,
-    NewpolicyComponent
-
+    PolicyDetailsComponent,
+    NewPolicyComponent,
+    MypolicyComponent
+   
 
     
     
@@ -43,7 +45,7 @@ import { NewpolicyComponent } from './newpolicy/newpolicy.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule , ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -12,9 +12,9 @@ import { TwoComponent } from './two/two.component';
 import { LiComponent } from './li/li.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
-import { NewpolicyComponent } from './newpolicy/newpolicy.component';
-
-
+import { NewPolicyComponent } from './new-policy/new-policy.component';
+import { PolicyDetailsComponent } from './policy-details/policy-details.component';
+import { MypolicyComponent } from './mypolicy/mypolicy.component';
 
 const routes: Routes = [{path:'home',component:HomeComponent},
 { path:'navbar',component:NavbarComponent},
@@ -28,7 +28,9 @@ const routes: Routes = [{path:'home',component:HomeComponent},
 { path:'li',component:LiComponent},
 { path:'two',component:TwoComponent},
 { path:'dashboard',component:DashboardComponent},
-{ path:'newpolicy' , component:NewpolicyComponent}
+{path:'mypolicy', component:MypolicyComponent},
+{path:'new-policy', component:NewPolicyComponent},
+{path :'policy-details', component: PolicyDetailsComponent}
 
 
 
