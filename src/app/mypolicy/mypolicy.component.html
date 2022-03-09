@@ -1,8 +1,21 @@
 <app-sidebar></app-sidebar>
 <app-navbar></app-navbar>
+
+<div class="container">  
+  
+  <ul class="nav nav-pills">  
+    <li class="active"><a data-toggle="pill" href="#home1">Policy Types</a></li>  
+    <li class="active"><a data-toggle="pill"  class="nav-link"routerLink="/mypolicy" routerLinkActive="active-link">My Policy</a></li>  
+    <li class="active"><a data-toggle="pill"   class="nav-link"routerLink="/new-policy" routerLinkActive="active-link">New policy</a></li>  
+    
+     
+  </ul> 
+</div>
+
 <div id="demo2" class="container tab-pane active" >
     <div class='table-responsive'>
-      <h5>My policies</h5>
+      <h3>My policies</h3>
+      <!--table started-->
       <table class="table   table-hover">
         <thead>
           <tr>
@@ -10,66 +23,68 @@
             <th >Policy_ID</th>
             <th>Policy_Name</th>
             <th>pollicy_plan</th>
-            <th>Claim</th>
+            <th>Cover</th>
             <th>Premium</th>
             <th>Policy_status</th>
           </tr>
         </thead>
+        
         <tbody>
           
           <tr>
             <td>1</td>
-            <td>4521783</td>
+            <td>IL5234</td>
             <td>Child Insurance</td>
             <td>15y</td>
             <td>4,00,000</td>
             
-            <td>64526/month</td>
+            <td>Rs. 64526/month</td>
             <td><button type="button" class="btn btn-warning">Current</button></td>
 
           </tr>
           <tr>
             <td>2</td>
-              <td>4521787</td>
+              <td>IL21787</td>
               <td>Senoir citizen Health Insurance</td>
               <td>5y</td>
               <td>2,00,000</td>
               
-              <td>3562/month</td>
+              <td>Rs.3562/month</td>
               <td><button type="button" class="btn btn-warning">Current</button></td>
             </tr>
             <tr>
             <td>3</td>
-              <td>4521787</td>
+              <td>IL1787</td>
               <td>car Insurance</td>
               <td>5y</td>
               <td>3,00,000</td>
               
-              <td>4562/month</td>
+              <td>Rs.4562/month</td>
               <td><button type="button" class="btn btn-danger">Pending</button></td>
             </tr>
             <tr >
             <td>4</td>
-              <td>4521786</td>
+              <td>IL1786</td>
               <td>Crop Insurance</td>
               <td>4y</td>
               <td>2,50,000</td>
               
-              <td>2246/month</td>
+              <td>Rs.2246/month</td>
               <td><button type="button" class="btn btn-success">completed</button></td>
             </tr>
             <tr >
             <td>5</td>
-              <td>4521783</td>
+              <td>IL1783</td>
               <td>coronavirus Health Insurance</td>
               <td>1y</td>
               <td>80,000</td>
               
-              <td>1245/monnth</td>
+              <td>Rs.1245/monnth</td>
               <td><button type="button" class="btn btn-success">completed</button></td>
             </tr>
         </tbody>
       </table>
+      <!--table ended-->
       
     </div>
   </div>
