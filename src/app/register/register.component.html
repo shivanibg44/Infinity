@@ -1,43 +1,63 @@
+<!--navbar started-->
 <app-navbar></app-navbar>
-<br><br><br>
+<!--navbar ended-->
+
+<!--Register started-->
 <div class="container">
-    <form action="SignIn.html">
-        
-        <h1 >SignUp</h1>
-        
-            <!--<label for="name">Name:</label>-->
-            <input type="text" class="form-control" id="name" placeholder="Enter Name" name="name">
-            
-       <br>
- 
-           <!-- <label for="email">Email:</label>-->
-            <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+  <br>
+  <br>
+  <div class="card-deck">
+    <div class="card" style="box-shadow: 2px 2px 2px 2px rgb(19, 18, 18); border-radius: 15px;">
+      <form class="form" style="border-radius: 15px;" [formGroup]="userForm" (ngSubmit)="onSubmit()">
         <br>
-     
-          <!--  <label for="number">Phone Number:</label>-->
-            <input type="tel" class="form-control" id="number" placeholder="Enter Phone Number" name="number">
-        <br>
-        
-           <!-- <label for="pwd">Password:</label>-->
-           
-           <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
-           <br>
-           <input type="password" class="form-control" id="pwd" placeholder="Confirm password" name="pswd">
+        <div class="form-column">
+          <div class="col">
+            <label for="name">Full Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter Full Name" name="name"
+              style="border-radius: 20px;" formControlName="Name">
+          </div>
+          <div class="col">
+            <label for="Email">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter email" name="Email"
+              style="border-radius: 20px;" formControlName="Email">
+          </div>
+          <div class="col">
+            <label for="PhoneNumber">Phone Number</label>
+            <input type="number" class="form-control" id="phonenumber" placeholder="Enter Phone Number"
+              name="phone_number" style="border-radius: 20px;" formControlName="PhoneNumber">
+          </div>
+          <div class="col">
+            <label for="paw">Password</label>
+            <input type="password" class="form-control" id="password" placeholder="Enter Password" name="pswd"
+              style="border-radius: 20px;" formControlName="Password">
+          </div>
+          <div class="col">
+            <label for="confirmpassword">Confirm Password</label>
+            <input type="password" class="form-control" id="confirmpassword" placeholder="Enter Confirm Password"
+              name="ConfirmPassword" style="border-radius: 20px;" formControlName="ConfirmPassword">
+          </div>
+          <div class="col">
             <br>
-            <button style="float: left;" type="submit" class="btn btn-warning">Reset</button>
-           
-            <button style="float: right;" type="submit" class="btn btn-primary">Submit</button>
-            
-        
-        
-           
-
-           
-            
-        
-    </form>
+            <input type="checkbox" class="form-checkbox" id="paw"><span> Remember me </span>
+          </div>
+          <div class="col">
+            <br>
+            <button type="submit" class="btn btn-danger" style="border-radius: 20px;" id="register">Sign Up</button>
+          </div>
+        </div>
+        <br>
+      </form>
+    </div>
+    <div class="card">
+      <img [src]="register" alt="">
+    </div>
+  </div>
 </div>
+<!--Login Ended-->
 
 
 
+<!--Footer started-->
+<app-footer></app-footer>
+<!--Footer Ended-->
 
