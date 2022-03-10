@@ -6,15 +6,15 @@
     line-height: 2.6;
     overflow: hidden;
     border-bottom: 2px solid #B0B3B9;
-
+  
     
-}
-.container {
-    max-width: 500px;
+  }
+  .container {
+    max-width: 600px;
     margin: auto;
    
     padding: 30px;
     margin-top: 20px;
    box-shadow: 0 0 20px 6px #a8a8aa85;
- height: 450px;
-}
+   height: 600px;
+  }

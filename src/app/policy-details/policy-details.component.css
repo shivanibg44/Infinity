@@ -26,14 +26,18 @@ hr.new1
 border: solid rgb(255, 217, 0);
 border-radius: 10px;
 border-width: 3px;
-margin-left: 250px;
-margin-right: 100px;
+margin-left: 220px;
+margin-right:auto
 }
 .demo2
 {
   border: rgb(0, 51, 128);
   border-width: 5px;
   border-style: solid;
-  margin-left: 250px;
-  margin-right: 100px;
+  margin-left: 200px;
+  margin-right: auto;
+}
+.demo3
+{
+  margin-left: 100px;
 }

@@ -4,37 +4,35 @@
 
 <!--Register started-->
 <div class="container">
-  <br>
-  <br>
-  <div class="card-deck">
-    <div class="card" style="box-shadow: 2px 2px 2px 2px rgb(15, 15, 15); border-radius: 15px;">
-      <form class="form" style="border-radius: 15px;" [formGroup]="userForm" (ngSubmit)="onSubmit()">
+    <h1>Sign UP</h1>
+      <form class="form" style="border-radius: 0px;" [formGroup]="userForm" (ngSubmit)="onSubmit()">
+        
         <br>
         <div class="form-column">
           <div class="col">
             <label for="name">Full Name</label>
             <input type="text" class="form-control" id="name" placeholder="Enter Full Name" name="name"
-              style="border-radius: 20px;" formControlName="Name">
+              style="border-radius: 5px;" formControlName="Name">
           </div>
           <div class="col">
             <label for="Email">Email</label>
             <input type="email" class="form-control" id="email" placeholder="Enter email" name="Email"
-              style="border-radius: 20px;" formControlName="Email">
+              style="border-radius: 5px;" formControlName="Email">
           </div>
           <div class="col">
             <label for="PhoneNumber">Phone Number</label>
             <input type="number" class="form-control" id="phonenumber" placeholder="Enter Phone Number"
-              name="phone_number" style="border-radius: 20px;" formControlName="PhoneNumber">
+              name="phone_number" style="border-radius: 5px;" formControlName="PhoneNumber">
           </div>
           <div class="col">
             <label for="paw">Password</label>
             <input type="password" class="form-control" id="password" placeholder="Enter Password" name="pswd"
-              style="border-radius: 20px;" formControlName="Password">
+              style="border-radius: 5px;" formControlName="Password">
           </div>
           <div class="col">
             <label for="confirmpassword">Confirm Password</label>
             <input type="password" class="form-control" id="confirmpassword" placeholder="Enter Confirm Password"
-              name="ConfirmPassword" style="border-radius: 20px;" formControlName="ConfirmPassword">
+              name="ConfirmPassword" style="border-radius: 5px;" formControlName="ConfirmPassword">
           </div>
           <div class="col">
             <br>
@@ -42,12 +40,13 @@
           </div>
           <div class="col">
             <br>
-            <button type="submit" class="btn btn-primary" style="border-radius: 20px;" id="register">Sign Up</button>
+            <button type="submit" class="btn btn-primary" style="border-radius: 5px;" id="register">Sign Up</button>
           </div>
         </div>
         <br>
       </form>
-    </div>
+      </div>
+    
    
 
 
