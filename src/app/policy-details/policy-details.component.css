@@ -23,6 +23,17 @@ a:hover{
 }
 hr.new1
 {
-border: 1px solid red;
+border: solid rgb(255, 217, 0);
 border-radius: 10px;
+border-width: 3px;
+margin-left: 250px;
+margin-right: 100px;
+}
+.demo2
+{
+  border: rgb(0, 51, 128);
+  border-width: 5px;
+  border-style: solid;
+  margin-left: 250px;
+  margin-right: 100px;
 }
