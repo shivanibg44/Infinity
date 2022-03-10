@@ -21,5 +21,47 @@ border: solid rgb(255, 217, 0);
 border-radius: 10px;
 border-width: 3px;
 margin-left: 250px;
-margin-right: 100px;
+margin-right: 50px;
+margin-bottom: 10px;
+}
+a{
+  color:black;
+}
+.nav-link.active{
+  background-color: 	#2e2ccc;
+  color: white;
+}
+a:hover{
+  background-color: 	#2e2ccc;
+  color: white;
+}
+
+@media only screen and (max-width: 1314px) {
+  [class="tab-content"] {
+    margin-left: 100px;
+  }
+}
+
+@media only screen and (max-width: 1314px) {
+  [class="nav nav-tabs"] {
+    margin-left: 100px;
+  }
+}
+.new1
+{
+  margin-bottom: 50px;
+}
+.demo2
+{
+  border: rgb(0, 51, 128);
+  border-width: 5px;
+  border-style: solid;
+  margin-left: 200;
+  margin-right: auto;
+}
+.demo3
+{
+  margin: left 100px;
+  margin-top: 25px;
+  
 }
