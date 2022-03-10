@@ -18,6 +18,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { PolicyDetailsComponent } from './policy-details/policy-details.component';
 import { NewPolicyComponent } from './new-policy/new-policy.component';
 import { MypolicyComponent } from './mypolicy/mypolicy.component'
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -45,7 +46,8 @@ import { MypolicyComponent } from './mypolicy/mypolicy.component'
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule , ReactiveFormsModule
+    FormsModule , ReactiveFormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
